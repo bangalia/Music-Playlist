@@ -21,12 +21,17 @@ class Playlist:
   def find_song(self, title):
     pass
 
+    current_song = self.__first_song
+    counter = 0 
 
+    while current_song
   # TODO: Create a method called remove_song that removes a song from the playlist. This method takes one parameter, title, which is the song that should be removed. 
 
   def remove_song(self, title):
     pass
 
+    current_song = self.__first_song
+    previous_song = None 
 
 
   # TODO: Create a method called length, which returns the number of songs in the playlist.
@@ -34,6 +39,8 @@ class Playlist:
   def length(self):
     pass
 
+    current_song = self.__first_song
+    counter = 0
 
   # TODO: Create a method called print_songs that prints a numbered list of the songs in the playlist.
 
@@ -45,4 +52,6 @@ class Playlist:
   def print_songs(self):
     pass
 
+    current_song = self.__first_song
+    counter = 0
   
