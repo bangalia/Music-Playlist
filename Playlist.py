@@ -29,7 +29,7 @@ class Playlist:
         return counter
       else:
         counter += 1
-        current_song = cuurent_song.get_next_song()
+        current_song = current_song.get_next_song()
     
     print('Song not found')
     return -1
@@ -49,7 +49,7 @@ class Playlist:
       if current_song.get_title() == title:
         previous_song.set_next_song(current_song.get_next_song())
       
-      elif self.__first_sonf.get_title() == title:
+      elif self.__first_song.get_title() == title:
         self.__first_song = self.__first_song.get_next_song()
       
       print("Song removed")
