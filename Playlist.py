@@ -54,4 +54,9 @@ class Playlist:
 
     current_song = self.__first_song
     counter = 0
+
+    while current_song !=None:
+      print(f'{counter + 1}. {current_song.get_title()}')
+      counter += 1
+      current_song = current_song.get_next_song()
   
